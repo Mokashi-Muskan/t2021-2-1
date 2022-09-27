@@ -1,0 +1,32 @@
+dict={}
+lst=[1,2,8,9,12,46,76,82,15,20,30]
+c1=c2=c3=c4=c5=c6=c7=c8=c9=0
+for i in lst:
+    if(i%1==0):
+        c1+=1
+    if(i%2==0):
+        c2=+1
+    if(i%3==0):
+        c3=+1
+    if(i%4==0):
+        c4+=1
+    if(i%5==0):
+        c5+=1
+    if(i%6==0):
+        c6+=1
+    if(i%7==0):
+        c7+=1
+    if(i%8==0):
+        c8+=1
+    if(i%9==0):
+        c9+=1
+dict[0]=c1
+dict[1]=c2
+dict[2]=c3
+dict[3]=c4
+dict[4]=c5
+dict[5]=c6
+dict[6]=c7
+dict[7]=c8
+dict[8]=c9
+print(dict)
